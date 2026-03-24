@@ -74,7 +74,7 @@ WHERE id = $1;
 
 const deletetasksQuery = `
 DELETE FROM tasks_details
-WHERE id = $1;
+WHERE id = $1
 RETURNING *;
 `;
 
